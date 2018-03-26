@@ -11,6 +11,6 @@ The exercises covered are:
 3. [Dealing with Mass](03_Dealing_with_Mass)
 4. [Gravity on Earth](04_Gravity_on_Earth)
 5. [Friction](05_Friction)
-6. Friction 2
+6. [Friction 2](06_Friction_2)
 7. Liquid
 8. Wind Chimes

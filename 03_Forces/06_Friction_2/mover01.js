@@ -6,7 +6,6 @@ var Mover = function (m){
     this.acceleration = createVector(0, 0);
     this.mass = m;
 
-
     this.update = function(){
          // Using VALV we add the vectors
         this.velocity.add(this.acceleration);
@@ -15,7 +14,7 @@ var Mover = function (m){
         // Reset the acceleration force to 0
         this.acceleration.mult(0);
     }
-    
+
     // Create the object
     this.display = function (){
         fill(255);
@@ -33,7 +32,7 @@ var Mover = function (m){
             this.velocity.y = this.velocity.y * -1;
         }
     }
-    
+
     this.applyForce = function(force){
         // The mass is cancelled out from the draw() function
         // so all the objects fall in the same time

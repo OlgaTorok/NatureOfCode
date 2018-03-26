@@ -4,7 +4,7 @@
 
 Declaring the walker and the main functions.
 
-The setup() function initialises the object and it's called only once.
+The **setup()** function initialises the object and it's called only once.
 
 ```js
 var walker;
@@ -17,8 +17,8 @@ function setup() {
 
 ```
 
-The draw() method is created and the functions inside are called in a loop.
-The render() and step() functions are called from the Walker class.
+The **draw()** method is created and the functions inside are called in a loop.
+The **render()** and **step()** functions are called from the **Walker** class.
 
 ```js
 function draw() {
@@ -27,9 +27,9 @@ function draw() {
 }
 ```
 
-The Walker class and the functionality are created.
+The **Walker** class and the functionality are created.
 
-The x and y locations are set and the render() function draws a dot at the given x and y coordinates, which are in the middle of the canvas.
+The x and y locations are set and the **render()** function draws a dot at the given x and y coordinates, which are in the middle of the canvas.
 
 ```js
 function Walker() {
@@ -42,7 +42,7 @@ function Walker() {
         point(this.x, this.y);
     }
 ```
-The step() function sets the random steps of the walker. The variable stepx and stepy are declared and we ask for a random number from -1 to 2 and then the number is floored to give an integer. This is one way of getting 9 outcomes if you include not moving.
+The **step()** function sets the random steps of the walker. The variable **stepx** and **stepy** are declared and we ask for a random number from -1 to 2 and then the number is floored to give an integer. This is one way of getting 9 outcomes if you include not moving.
 
 
 ```js
@@ -54,7 +54,7 @@ this.step = function() {
     this.y = this.y + stepy;
 
 ```
-The walker is constrained within the canvas using the constrain() function.
+The walker is constrained within the canvas using the **constrain()** function.
 
 ```js
         this.x = constrain(this.x, 0, width);

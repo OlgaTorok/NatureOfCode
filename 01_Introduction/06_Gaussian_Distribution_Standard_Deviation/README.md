@@ -2,7 +2,7 @@
 
 # Normal/Gaussian Distribution - Standard Deviation
 
-The setup() function contains the canvas and the background.
+The **setup()** function contains the canvas and the background.
 
 ```js
 function setup(){
@@ -10,7 +10,7 @@ function setup(){
     background(0);
 }
 ```
-In the draw() function we first declare the x location, which is a gaussian random number, the standard deviation and the mean which is in the middle of the canvas. The gaussioan random number is scaled by standard deviation and mean.
+In the **draw()** function we first declare the x location, which is a **gaussian** random number, the standard deviation and the mean which is in the middle of the canvas. The **gaussioan** random number is scaled by **standard deviation** and **mean**.
 
 The last thing to do is to draw the ellipse at our random positions.
 

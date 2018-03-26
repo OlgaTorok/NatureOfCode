@@ -9,7 +9,7 @@ var randomCounts = [];
 var total = 20;
 
 ```
-The setup() function contains the canvas and the loop that populates the array with 0s.
+The **setup()** function contains the canvas and the loop that populates the array with 0s.
 
 ```js
 function setup(){
@@ -20,9 +20,9 @@ function setup(){
      }
 }
 ```
-The draw() function will run in a loop creating the objects.
+The **draw()** function will run in a loop creating the objects.
 
-The background is set so every loop it will refresh and hide the trail. A new variable index is created which takes the random numbers in the array and floors it, returning an integer from 0 to 19, and then it gets added to the array.
+The background is set so every loop it will refresh and hide the trail. A new variable **index** is created which takes the random numbers in the array and floors it, returning an integer from 0 to 19, and then it gets added to the array.
 
 ```js
 // Draw the objects
@@ -32,7 +32,7 @@ function draw(){
     randomCounts[index]++;
 ```
 
-The next thing is drawing the rectangles by giving them the stoke, stroke weight and a fill colour. A new variable is declared to calculate the width of the bars by dividing the width of the canvas by the number of the elements in the array. A for loop is created to generate the rectangles depending on the random number received.
+The next thing is drawing the rectangles by giving them the stoke, stroke weight and a fill colour. A new variable is declared to calculate the width of the bars by dividing the width of the canvas by the number of the elements in the array. A **for** loop is created to generate the rectangles depending on the random number received.
 
 ```js
     stroke(0);

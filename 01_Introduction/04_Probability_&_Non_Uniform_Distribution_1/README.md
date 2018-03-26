@@ -2,7 +2,9 @@
 
 # Probability and Non Uniform Distributions
 
-The walker is declared as a global variable. The setup() and draw() functions are set. The setup() function contains the canvas, background and we call the walker class to create a new walker object. The draw() function contains the functions that are called from the walker class.
+The walker is declared as a global variable. The **setup()** and **draw()** functions are set.
+
+The **setup()** function contains the canvas, background and we call the walker class to create a new walker object. The **draw()** function contains the functions that are called from the walker class.
 
 ```js
 var walker;
@@ -19,7 +21,7 @@ function draw(){
 }
 ```
 
-The Walker class contains the x and y position of the object, which is the middle of the canvas. The class also contains the render function which holds the stroke, stroke weight and the starting point of the object.
+The **Walker** class contains the x and y position of the object, which is the middle of the canvas. The class also contains the **render** function which holds the stroke, stroke weight and the starting point of the object.
 
 ```js
 function Walker(){
@@ -34,10 +36,9 @@ function Walker(){
 
 ```
 
-The step() function, located in the Walker class, contains an empty array to which we then add our own values. There is a 40% chance that 1 and 3 are chosen and a 20% that 2 will be chosen.
+The **step()** function, located in the Walker class, contains an empty array to which we then add our own values. There is a 40% chance that 1 and 3 are chosen and a 20% that 2 will be chosen.
 
 ```js
-
     this.step = function(){
         var probArr = [];
         probArr[0] = 1;
@@ -46,11 +47,9 @@ The step() function, located in the Walker class, contains an empty array to whi
         probArr[3] = 3;
         probArr[4] = 3;
 ```
+A new variable **index** is declared which takes the array random values and floors it to give us integers and we add it to the array. A variable **r** is declared to take the new random integer value.
 
-A new variable index is declared which takes the array random values and floors it to give us integers and we add it to the array. A variable r is declared to take the new random integer value.
-
-The object is constrained to the canvas using the constrain() function.
-
+The object is constrained to the canvas using the **constrain()** function.
 
 ```js
         var index = floor(random(probArr.length));

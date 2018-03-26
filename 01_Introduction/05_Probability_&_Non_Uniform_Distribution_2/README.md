@@ -2,7 +2,9 @@
 
 # Probability and Non Uniform Distributions 2
 
-The walker is declared as a global variable. The setup() and draw() functions are set. The setup() function contains the canvas, background and we call the walker class to create a new walker object. The draw() function contains the functions that are called from the walker class.
+The walker is declared as a global variable. The **setup()** and **draw()** functions are set.
+
+The **setup()** function contains the canvas, background and we call the **Walker** class to create a new walker object. The **draw()** function contains the functions that are called from the walker class.
 
 ```js
 var walker;
@@ -19,7 +21,7 @@ function draw(){
 }
 ```
 
-The Walker class contains the x and y position of the object, which is the middle of the canvas. The class also contains the render() function which holds the stroke, stroke weight and the starting point of the object.
+The **Walker** class contains the x and y position of the object, which is the middle of the canvas. The class also contains the **render()** function which holds the stroke, stroke weight and the starting point of the object.
 
 ```js
 function Walker(){
@@ -34,7 +36,7 @@ function Walker(){
 
 ```
 
-In the step() function, located in the Walker class, we declare a variable called choice which gives 4 random numbers within 0 and 4 and then we floor it to get an integer. The second variable declared is r which gives us a random float number between 0 and 1.
+In the **step()** function, located in the **Walker** class, we declare a variable called **choice** which gives 4 random numbers within 0 and 4 and then we floor it to get an integer. The second variable declared is **r** which gives us a random float number between 0 and 1.
 
 The if and if else statements gives the object:
     * 40% chance of moving to the right
@@ -59,7 +61,7 @@ this.step = function(){
     }
 ```
 
-The object is constrained to the canvas using the constrain() function.
+The object is constrained to the canvas using the **constrain()** function.
 
 
 ```js

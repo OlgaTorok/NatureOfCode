@@ -15,7 +15,6 @@ var Mover = function (x, y, vx, vy, ax, ay, m) {
     this.display = function () {
         //pick a brush
         noStroke();
-        strokeWeight(2);
         fill(255, 0, 0, 50);
 
         //And draw an ellipse at the new location vector points

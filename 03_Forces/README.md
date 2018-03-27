@@ -12,5 +12,5 @@ The exercises covered are:
 4. [Gravity on Earth](04_Gravity_on_Earth)
 5. [Friction](05_Friction)
 6. [Friction 2](06_Friction_2)
-7. Liquid
-8. Wind Chimes
+7. [Liquid](07_Liquid)
+8. [Wind Chimes](08_WindChimes)

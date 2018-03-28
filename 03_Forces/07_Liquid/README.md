@@ -2,6 +2,8 @@
 
 # Fluid Resistance
 
+### Mover
+
 The Mover class is created with parameter for x and y location, x and y velocity, x and y acceleration and the mass. The Mover's **location**, **velocity** and **acceleration** is set using the **createVector()**. We set the **mass** to m.
 
 ```js
@@ -52,6 +54,8 @@ The **applyForce** function is created to add forces to the objects. Because we 
     }
 }
 ```
+### Liquid
+
 The **Liquid** class is created with the parameters x and y for location, width and height, coefficient of drag and the r, g and b for the RGB colours. Each variable is set and given the parameter as value.   
 
 ```js
@@ -100,6 +104,9 @@ The **display()** function creates the object with the RGB fill.
     }
 }
 ```
+
+### Sketch
+
 The global variable **liquid** is added as an array and the mover class called **ball**.
 
 In the **setup()** function we add the canvas and we create three liquids with the parameters given. The mover **ball** is also added with it's parameters.

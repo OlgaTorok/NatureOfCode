@@ -2,7 +2,7 @@
 
 # Wind Chimes
 
-### Mover Class
+### Mover
 
 The Mover class is created with parameter for x and y location, x and y velocity, x and y acceleration and the mass. The Mover's **location**, **velocity** and **acceleration** is set using the **createVector()**. We set the **mass** to m.
 
@@ -61,7 +61,7 @@ The **applyForce** function is created with the parameter **force**, to add forc
     }
 }
 ```
-### WindChime Class
+### WindChime
 
 The **WindChime** class is created with the parameters xpos and ypos for location, wind magnitude, and start and end angles . Each variable is set and given the parameter as value. Other variables added added are the **windVec** which is a vector and **time**.
 
@@ -117,7 +117,7 @@ The **translation** and **scale** of the grid is added and the **text** with the
     }
 }
 ```
-### Main page
+### Sketch
 
 The windchimes and mover classes are declared. In the **setup()** function we add the canvas and two windchimes objects with parameters. In a **for** loop we add the **mover** at random locations.
 

@@ -2,6 +2,8 @@
 
 # Friction 2
 
+### Mover
+
 The Mover class is created with the parameter **m**. The Mover's **location**, **velocity** and **acceleration** is set using the **createVector()**. We set the **mass** to m.
 
 ```js
@@ -54,6 +56,8 @@ The **applyForce** function is created to add forces to the objects. Because we 
 }
 
 ```
+### Sketch
+
 The global variable **mover** is added as an array. In the **setup()** function we add the canvas and in a **for** loop we create the new **Mover** with the parameters given.
 
 ```js

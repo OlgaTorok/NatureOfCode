@@ -2,6 +2,8 @@
 
 # Vector Motion - Random Acceleration
 
+### Mover
+
 The Mover class is created. The Mover's **location** is set at half the width and half the height using the **createVector()** function. The **velocity** is set to 0 on this exercise so we can test the acceleration. The **acceleration** is set using the p5.Vector class to get random 2D acceleration vectors. The acceleration is then multiplied by a number. The acceleration affects the velocity and the velocity in its turn affects the location of the object. Next we added the functions that create the objects.
 
 The **update** function updates the object's location and velocity by adding the acceleration to velocity and set the limit of the maximum velocity to 10. We then add the velocity to the location each frame. The **display** function draws the ellipse at the x and y locations with a stroke and fill. The **checkEdge** function checks if the ellipse leaves the canvas and it turns it around.
@@ -37,6 +39,8 @@ var Mover = function(){
     }
 }
 ```
+
+### Sketch
 
 The global variable **mover** is added to be used in creating the objects. In the **setup()** function we create the canvas and we set the new **Mover**. The **draw()** function has the background and the functions are called from the Mover class so the movers are created.
 

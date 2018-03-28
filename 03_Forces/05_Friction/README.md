@@ -2,6 +2,8 @@
 
 # Friction
 
+### Mover
+
 The Mover class is created with the parameter **m**. The Mover's **location**, **velocity** and **acceleration** is set using the **createVector()**. We set the **mass** to m.
 
 ```js
@@ -53,6 +55,9 @@ The **applyForce** function is created to add forces to the objects. Because we 
     }
 }
 ```
+
+### Sketch
+
 The global variable **mover** is added to be used in creating the objects. In the **setup()** function we create the canvas and we set the new **Mover**. The **draw()** function has the background and new variables called **m**, which is set as mass, **wind** and **gravity** which are forces.
 
 Next we set the **coefficient of friction**, the **normal force**, the **magnitude of friction** and the **friction** using a static function and then we **normalize** it and multiply it by the magnitude of friction. This will determine the direction and magnitude of friction.

@@ -2,6 +2,8 @@
 
 # Vector Motion - Velocity
 
+### Mover
+
 The Mover class is created. The Mover's **location** is set at a random width and height using the **createVector()** function. The **velocity** is also used using the **createVector()** function. Next the functions are added.
 
 The **update** function updates the object's location by adding the velocity each frame. The **display** function creates the ellipse at the x and y locations with a stroke and fill. The **checkEdge** function checks if the ellipse leaves the canvas and it turns it around.
@@ -33,8 +35,9 @@ var Mover = function(){
     }
 }
 ```
+### Sketch
 
-The global variable **mover** is added to be used in creating the objects. In the **setup()** function we create the canvas and we set the new **Mover**. The **draw()** function has the background and the functions are called from the Mover class so the movers are created. 
+The global variable **mover** is added to be used in creating the objects. In the **setup()** function we create the canvas and we set the new **Mover**. The **draw()** function has the background and the functions are called from the Mover class so the movers are created.
 
 ```js
 var mover;

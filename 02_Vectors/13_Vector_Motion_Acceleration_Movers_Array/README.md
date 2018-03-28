@@ -2,6 +2,8 @@
 
 # Vector Motion - An Array of Movers
 
+### Mover
+
 The Mover class is created. The Mover's **location** is set at a random point on the canvas using the **createVector()** and **random()** methods and we **Math.floor()** the random numbers to get an integer. The **velocity** is set and the **acceleration** is declared using the **createVector()** method.
 
 ```js
@@ -47,6 +49,8 @@ The **checkEdge** function checks if the ellipse leaves the canvas and it turns 
     }
 }
 ```
+
+### Sketch
 
 The global variable **mover** is added as an array. In the **setup()** function we create the canvas and we add a **for** loop that creates a new **Mover** object each time the loop is run. The **draw()** function has the background and the functions are called in a **for** loop from the Mover class so the movers objects are drawn on the canvas.
 

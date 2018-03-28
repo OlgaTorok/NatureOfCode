@@ -2,6 +2,8 @@
 
 # Gravity on Earth
 
+### Mover
+
 The Mover class is created with the parameter **m**. The Mover's **location**, **velocity** and **acceleration** is set using the **createVector()**. We set the **mass** to m.
 
 ```js
@@ -53,6 +55,8 @@ The **applyForce** function is created to add forces to the objects. Because we 
     }
 }
 ```
+### Sketch
+
 The global variable **mover** is added as an array to be used in creating the objects. In the **setup()** function we create the canvas and we set the new **Mover**. A **for** loop is added to create 20 random objects. The **draw()** function has the background and a **loop** is set for the mover objects. In the loop we add new variables called **m**, which is set as mass, **wind** and **gravity** which are forces, and the functions needed to add the object to the canvas. The functions are called from the Mover class so the movers are created.
 
 ```js

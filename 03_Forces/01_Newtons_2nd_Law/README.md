@@ -2,6 +2,8 @@
 
 # Newtons 2nd Law
 
+### Mover
+
 The Mover class is created. The Mover's **location**, **velocity** and **acceleration** is set using the **createVector()**.
 
 ```js
@@ -52,6 +54,9 @@ The **applyForce** function is created to add forces to the objects.
     }
 }
 ```
+
+### Sketch
+
 The global variable **mover** is added to be used in creating the objects. In the **setup()** function we create the canvas and we set the new **Mover**. The **draw()** function has the background, the new variable called **wind** which is a force, and the functions needed to add the object to the canvas. The functions are called from the Mover class so the movers are created.
 
 

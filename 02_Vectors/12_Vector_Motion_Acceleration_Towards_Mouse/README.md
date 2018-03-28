@@ -2,6 +2,8 @@
 
 # Vector Motion - Acceleration towards the Mouse
 
+### Mover
+
 The Mover class is created. The Mover's **location** is set at half the width and half the height using the **createVector()** function. The **velocity** is set to 0 and the **acceleration** is declared using the **createVector()** method.
 
 ```js
@@ -48,6 +50,8 @@ The **checkEdge** function checks if the ellipse leaves the canvas and it turns 
     }
 }
 ```
+
+### Sketch
 
 The global variable **mover** is added to be used in creating the objects. In the **setup()** function we create the canvas and we set the new **Mover**. The **draw()** function has the background and the functions are called from the Mover class so the movers are created.
 

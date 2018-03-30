@@ -1,4 +1,4 @@
-[Vectors](../)
+[Oscillation](../)
 
 # Direction of Movement
 

@@ -1,6 +1,6 @@
-[Vectors](../)
+[Oscillation](../)
 
-# Angles
+# Angles 2
 
 
 This exercise shows how angles are used when an object changes direction. This exercise contains a **Mover** class.
@@ -107,4 +107,4 @@ function draw(){
 
 Result:
 
-![Angles](img/Sketch.PNG?raw=true "Angles")
+![Angles 2](img/Sketch.PNG?raw=true "Angles 2")
